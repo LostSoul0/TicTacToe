@@ -61,10 +61,10 @@ def o_and_x():
     for entity in board:
         if entity[0] is not None:
             if entity[0] == 'x':
-                x = pyglet.image.load('TicTacToe/res/x.png')
+                x = pyglet.image.load('res/x.png')
                 x.blit(entity[1], entity[2])
             elif entity[0] == 'o':
-                o = pyglet.image.load('TicTacToe/res/o.png')
+                o = pyglet.image.load('res/o.png')
                 o.blit(entity[1], entity[2])
 
 def restart(f):
